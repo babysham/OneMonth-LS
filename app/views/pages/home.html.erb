@@ -1,4 +1,13 @@
 <div class="jumbotron">
 	<h1>Welcome to why Linux Sucks...</h1>
-	Click here to <%= link_to "Vote Yes here", "#", class: "btn btn-primary" %>
+
+	<% if user_signed_in? %>
+		#
+	<% else %>
+
+		<%= link_to "Login", new_user_session_path, class: "btn btn-primary" %>
+		<%= link_to "Sign 'er up", new_user_registration_path, class: "btn btn-primary" %>
+	<% end %>
+		
+	
 </div>

@@ -22,7 +22,7 @@ test:
 
 production:
   <<: *default
-  database: db/production.postgresql
+  database: db/production.postgresqlgit 
   adapter: postgresql
   encoding: unicode
   database: calm-temple-1536

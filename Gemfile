@@ -37,6 +37,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
+gem 'devise', '~>3.1.0.rc2'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
